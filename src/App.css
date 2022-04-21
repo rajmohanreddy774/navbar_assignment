@@ -1,0 +1,29 @@
+*{
+  color: white;
+}
+.App{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(10, 10, 11);
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#flex{
+   display: flex;
+}
+#flex>p{
+  margin-left: 30px;
+}
+
+button{
+   width: 200px;
+   height: 50px;
+   color: white;
+   background-color: rgba(25, 167, 202, 0.786);
+   border: none;
+   font-size: 20px;
+   border-radius: 30px;
+}
